@@ -15,7 +15,7 @@ function Header() {
         <nav className="nav">
           <Link to="/">Home</Link>
 
-          <Link to="/cart" className="cart-link">
+          <Link to="/Cart" className="cart-link">
             🛒 Cart
             <span className="cart-count">
               {cartCount}

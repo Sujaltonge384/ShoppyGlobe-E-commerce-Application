@@ -97,6 +97,21 @@ function ProductDetail() {
               {product.rating}
             </p>
 
+            <p>
+              <strong>Brand:</strong>{" "}
+              {product.brand || "N/A"}
+            </p>
+
+            <p>
+               <strong>Stock:</strong>{" "}
+                {product.stock}
+            </p>
+
+            <p>
+              <strong>Discount:</strong>{" "}
+              {product.discountPercentage}%
+            </p>
+
             <p className="detail-price">
               ${product.price}
             </p>
