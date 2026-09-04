@@ -13,6 +13,15 @@ function ProductList({ products }) {
       .includes(searchTerm.toLowerCase())
   );
 
+  if (filteredProducts.length === 0) {
+    return (
+      <div className="error-message">
+        <h2>No products found</h2>
+        <p>Try another search term.</p>
+      </div>
+    );
+  }
+
   return (
     <section className="product-section">
       <div className="product-grid">
