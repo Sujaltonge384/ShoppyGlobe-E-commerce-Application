@@ -1,16 +1,82 @@
-# React + Vite
+# ShoppyGlobe E-Commerce Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShoppyGlobe is a basic e-commerce application developed using React and Vite.
 
-Currently, two official plugins are available:
+## GitHub Repository
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://github.com/Sujaltonge384/ShoppyGlobe-E-commerce-Application
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Redux Toolkit
+- React Redux
+- React Router
+- JavaScript
+- CSS
+- DummyJSON API
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Product listing
+- Product details
+- Search products
+- Add products to cart
+- Remove products from cart
+- Increase cart quantity
+- Decrease cart quantity
+- Cart quantity cannot go below 1
+- Checkout form
+- Order summary
+- Place order functionality
+- 404 Not Found page
+- API error handling
+- Lazy loading
+- Responsive design
+
+## API
+
+Products are fetched from:
+
+https://dummyjson.com/products
+
+Product details are fetched dynamically using:
+
+https://dummyjson.com/products/{id}
+
+## Project Structure
+
+src/
+├── components/
+├── hooks/
+├── redux/
+├── App.jsx
+├── main.jsx
+└── index.css
+
+## Installation
+
+Clone the repository:
+
+git clone https://github.com/Sujaltonge384/ShoppyGlobe-E-commerce-Application.git
+
+Move into the project:
+
+cd shoppyglobe
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+## Production Build
+
+npm run build
+
+## Notes
+
+The node_modules folder is not included in the submission.
