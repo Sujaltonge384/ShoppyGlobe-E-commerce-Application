@@ -33,7 +33,11 @@ function ProductDetail() {
 
         setProduct(data);
       } catch (err) {
-        setError(err.message);
+          console.error("Product detail error:", err);
+
+         setError(
+         "Unable to load this product. The product may not exist."
+          );
       } finally {
         setLoading(false);
       }
