@@ -9,7 +9,7 @@ function Header() {
     <header className="header">
       <div className="header-container">
         <Link to="/" className="logo">
-          ShoppyGlobe
+          🌍 ShoppyGlobe
         </Link>
 
         <nav className="nav">
@@ -17,7 +17,9 @@ function Header() {
 
           <Link to="/cart" className="cart-link">
             🛒 Cart
-            <span className="cart-count">{cartCount}</span>
+            <span className="cart-count">
+              {cartCount}
+            </span>
           </Link>
         </nav>
       </div>
