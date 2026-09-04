@@ -80,3 +80,10 @@ npm run build
 ## Notes
 
 The node_modules folder is not included in the submission.
+
+##ScreenShots
+<img width="1917" height="980" alt="image" src="https://github.com/user-attachments/assets/0279c2b7-c56d-407c-be22-47fe54771ead" />
+<img width="1917" height="985" alt="image" src="https://github.com/user-attachments/assets/f8fe3212-5f83-4b5a-b441-d38d0223e019" />
+<img width="1917" height="986" alt="image" src="https://github.com/user-attachments/assets/ea56a160-a924-4898-9cfa-9dc7989092f7" />
+<img width="1917" height="981" alt="image" src="https://github.com/user-attachments/assets/cc6273f3-c365-4010-baf0-d43d8cd4a988" />
+
