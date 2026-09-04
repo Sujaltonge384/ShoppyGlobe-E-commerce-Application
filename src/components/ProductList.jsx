@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import ProductItem from "./ProductItem";
 
 function ProductList({ products }) {
+    // Get the search term from Redux state.
   const searchTerm = useSelector(
     (state) => state.cart.searchTerm
   );
@@ -40,4 +41,4 @@ ProductList.propTypes = {
   products: PropTypes.array.isRequired,
 };
 
-export default ProductList;
+export default ProductList; 

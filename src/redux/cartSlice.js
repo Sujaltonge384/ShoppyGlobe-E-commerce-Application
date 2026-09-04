@@ -33,6 +33,7 @@ const cartSlice = createSlice({
       );
     },
 
+    // Increase the quantity of an existing cart product.
     increaseQuantity: (state, action) => {
       const product = state.items.find(
         (item) => item.id === action.payload

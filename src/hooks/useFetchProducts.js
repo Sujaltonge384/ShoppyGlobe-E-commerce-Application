@@ -5,6 +5,7 @@ function useFetchProducts() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
+  // Fetch all products when the component using this hook mounts.
   useEffect(() => {
     const fetchProducts = async () => {
       try {
